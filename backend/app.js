@@ -15,8 +15,8 @@ app.use('/api/house', house);
 
 var con = mysql.createConnection({
   host: "localhost",
-  user: "root",
-  password: "12345",
+  user: "YOUR_SQL_DB",
+  password: "YOUR_PASSWORD",
   database: "housera",
   port: 3307
 });
